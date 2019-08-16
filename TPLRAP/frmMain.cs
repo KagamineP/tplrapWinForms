@@ -41,8 +41,8 @@ namespace TPLRAP
         #endregion
 
 
-        #region Form closing
-        protected override void OnFormClosing(FormClosingEventArgs e)
+        #region Response to clicking the close button is DISABLED. If you need this function, uncomment it.
+        /* protected override void OnFormClosing(FormClosingEventArgs e)
         {
             if (CloseCancel()==false)
             {
@@ -61,13 +61,14 @@ namespace TPLRAP
             else
                 return false;
         }
-
+        */
         #endregion
+
 
         #region AutoUpdater
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            AutoUpdater.Start("http://kagaminep.ru/tplrap/updates/AutoUpdaterTest.xml");
+            AutoUpdater.Start("http://kagaminep.ru/tplrap/updates/tplrap.xml");
         }
         #endregion
     }
