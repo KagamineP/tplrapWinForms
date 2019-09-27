@@ -1,4 +1,10 @@
-﻿using System;
+﻿/**
+ * frmMain.cs
+ * Created by KagamineP (Dmitry Kiryanov)
+ * Licensed under BSD 3-Clause License
+ */
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;

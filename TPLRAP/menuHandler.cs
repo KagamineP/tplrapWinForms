@@ -1,4 +1,10 @@
-﻿using CefSharp;
+﻿/**
+ * menuHandler.cs
+ * Created by KagamineP (Dmitry Kiryanov)
+ * Licensed under BSD 3-Clause License
+ */
+
+using CefSharp;
 
 namespace TPLRAP
 {

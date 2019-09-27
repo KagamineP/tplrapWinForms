@@ -1,4 +1,10 @@
-﻿using System;
+﻿/**
+ * Program.cs
+ * Created by KagamineP
+ * Licensed under BSD 3-Clause License
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
