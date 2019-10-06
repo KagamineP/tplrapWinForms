@@ -22,7 +22,7 @@ namespace TPLRAP
 {
     public partial class FrmMain : Form
     {
-        public ChromiumWebBrowser chromeBrowser;
+        private ChromiumWebBrowser chromeBrowser;
 
         public FrmMain()
         {
@@ -34,15 +34,18 @@ namespace TPLRAP
             InitializeChromium();
         }
 
+        public ChromiumWebBrowser ChromeBrowser { get => chromeBrowser; set => chromeBrowser = value; }
+
         #region All, what connected with CefSharp settings
         public void InitializeChromium()
         {
             CefSettings settings = new CefSettings();
             Cef.Initialize(settings);
-            chromeBrowser = new ChromiumWebBrowser("http://tplinkwifi.net/");
-            this.Controls.Add(chromeBrowser);
-            chromeBrowser.Dock = DockStyle.Fill;
-            chromeBrowser.MenuHandler = new menuHandler();
+            ChromeBrowser = new ChromiumWebBrowser("http://tplinkwifi.net/");
+            this.Controls.Add(ChromeBrowser);
+            ChromeBrowser.Dock = DockStyle.Fill;
+            ChromeBrowser.MenuHandler = new menuHandler();
+
         }
         #endregion
 
