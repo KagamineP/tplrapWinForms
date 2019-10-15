@@ -44,7 +44,7 @@ namespace TPLRAP
             ChromeBrowser = new ChromiumWebBrowser("http://tplinkwifi.net/");
             this.Controls.Add(ChromeBrowser);
             ChromeBrowser.Dock = DockStyle.Fill;
-            ChromeBrowser.MenuHandler = new menuHandler();
+            ChromeBrowser.MenuHandler = new MenuHandler();
 
         }
         #endregion

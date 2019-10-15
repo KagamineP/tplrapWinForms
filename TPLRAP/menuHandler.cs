@@ -8,7 +8,7 @@ using CefSharp;
 
 namespace TPLRAP
 {
-    public class menuHandler : CefSharp.IContextMenuHandler
+    public class MenuHandler : CefSharp.IContextMenuHandler
     {
         public void OnBeforeContextMenu(IWebBrowser browserControl, IBrowser browser, IFrame frame, IContextMenuParams parameters, IMenuModel model)
         {
