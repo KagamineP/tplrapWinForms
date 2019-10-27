@@ -1,5 +1,7 @@
 # TP-Link Router Administration Panel
 
+![Github repo license](https://img.shields.io/github/license/KagamineP/tplrap) ![Github repo size](https://img.shields.io/github/languages/code-size/KagamineP/tplrap)
+
 This program was created to simplify the login to the admin panel on [TP-Link](https://tp-link.com/) routers. This program requires a connection to the router via Wi-Fi or LAN. This program uses [CefSharp](https://github.com/cefsharp/CefSharp), so the program loads the page http://tplinkwifi.net/ (works only on TP-Link routers). Ie, this program is a shortcut to access the administration panel. 
 
 Auto-update function based on [AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET).
