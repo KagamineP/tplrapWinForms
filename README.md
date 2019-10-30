@@ -6,6 +6,11 @@ This program was created to simplify the login to the admin panel on [TP-Link](h
 
 Auto-update function based on [AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET).
 
+Known Issues
+============
+There is no way to access the admin panel on older versions of routers. 
+Workaround: Use the browser you use.
+
 System requirements
 ==================
 Operating system from Windows 7 to Windows 10  
@@ -17,5 +22,31 @@ To build this program you need to install CefSharp from NuGet.
 
 Copyright
 =========
-TP-Link Brand is owned by TP-LINK Technologies CO., LTD.  
+TP-Link brand is owned by TP-LINK Technologies CO., LTD.  
 I own only the program code.
+
+# Панель администратора роутера TP-Link 
+
+Данная программа была создана для упрощения доступа к панели администратора на роутерах [TP-Link](https://tp-link.com/). Данная программа требует подключения к роутеру через Wi-Fi или LAN. Данная программа использует [CefSharp](https://github.com/cefsharp/CefSharp), поэтому программа загружает страницу http://tplinkwifi.net/ (работает только на роутерах TP-Link). То есть, данная программа ярлык для доступа в панель администратора.
+
+Функция автообновления основана на [AutoUpdater.NET](https://github.com/ravibpatel/AutoUpdater.NET).
+
+Известные проблемы
+===================
+Нет возможности доступа к панели администратора на старых версиях роутеров. 
+Временное решение: используйте браузер которым вы пользуйтесь. 
+
+Системные требования
+=====================
+Операционная система: Windows 7 и выше. 
+Visual C++ всех версий
+.Net Framework 4.7.2
+
+Зависимости для сборки
+=======================
+Для того, чтобы собрать данную программу, вам нужно восстановить пакеты NuGet.
+
+Авторские права
+===============
+Бренд TP-Link принадлежит TP-LINK Technologies CO., LTD.
+Мне принадлежит только код данной программы.
