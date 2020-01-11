@@ -13,6 +13,7 @@ Workaround: Use the browser you use.
 
 System requirements
 -------------------
+Note that for Windows 7 support will be dropped.
 Operating system from Windows 7 to Windows 10  
 .Net Framework 4.7.2
 
@@ -38,6 +39,7 @@ I own only the program code.
 
 Системные требования
 --------------------
+Обратите внимание, что в скором времени будет прекращена поддержка Windows 7.
 Операционная система: Windows 7 и выше.  
 Visual C++ всех версий  
 .Net Framework 4.7.2
