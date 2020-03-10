@@ -13,8 +13,9 @@ Workaround: Use the browser you use.
 
 System requirements
 -------------------
-Operating system from Windows 7 to Windows 10  
-.Net Framework 4.7.2
+Operating system from Windows 8.1 to Windows 10  
+.Net Framework 4.7.2  
+Visual C++ 2015-2019
 
 Build dependencies
 ------------------
