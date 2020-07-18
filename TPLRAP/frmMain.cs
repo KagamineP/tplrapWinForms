@@ -77,11 +77,7 @@ namespace TPLRAP
         #region AutoUpdater
         private void FrmMain_Load(object sender, EventArgs e)
         {
-#if DEBUG
-            AutoUpdater.Start("http://kagaminep.ru/tplrap/insider/insider.xml");
-#else
             AutoUpdater.Start("http://kagaminep.ru/tplrap/release/release.xml");
-#endif
         }
 #endregion
     }
