@@ -26,10 +26,10 @@ namespace TPLRAP
 
         public FrmMain()
         {
-#if DEBUG
-            MessageBox.Show(Properties.Resources.DebugMessageText, Properties.Resources.DebugMessageTitle, MessageBoxButtons.OK, MessageBoxIcon.Information);
-            MessageBox.Show("CefSharp version: " + AssemblyInfo.AssemblyVersion, "Debug configuration", MessageBoxButtons.OK, MessageBoxIcon.Information);
-#endif
+// #if DEBUG
+            // MessageBox.Show(Properties.Resources.DebugMessageText, Properties.Resources.DebugMessageTitle, MessageBoxButtons.OK, MessageBoxIcon.Information);
+            // MessageBox.Show("CefSharp version: " + AssemblyInfo.AssemblyVersion, "Debug configuration", MessageBoxButtons.OK, MessageBoxIcon.Information);
+// #endif
             InitializeComponent();
             InitializeChromium();
         }
