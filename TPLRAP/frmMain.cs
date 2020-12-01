@@ -32,6 +32,14 @@ namespace TPLRAP
 // #endif
             InitializeComponent();
             InitializeChromium();
+            if (Environment.Is64BitProcess)
+            {
+
+            }
+            else
+            {
+                MessageBox.Show("Внимание! Просим обратить ваше внимание на то, что поддержка 32-битных систем будет прекращена в ближайшем будущем.", "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         public ChromiumWebBrowser ChromeBrowser { get => chromeBrowser; set => chromeBrowser = value; }
@@ -77,7 +85,15 @@ namespace TPLRAP
         #region AutoUpdater
         private void FrmMain_Load(object sender, EventArgs e)
         {
-            AutoUpdater.Start("http://kagaminep.ru/tplrap/release/release.xml");
+            if (Environment.Is64BitOperatingSystem)
+            {
+                AutoUpdater.Start("https://kagaminep.ru/release/release-x64.xml");
+            }
+            else
+            {
+                AutoUpdater.Start("https://kagaminep.ru/release/release-x86.xml");
+            }
+            // AutoUpdater.Start("http://kagaminep.ru/tplrap/release/release.xml");
         }
 #endregion
     }
