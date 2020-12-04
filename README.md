@@ -13,7 +13,7 @@ Workaround: Use the browser you use.
 
 System requirements
 -------------------
-Operating system from Windows 7 to Windows 10  
+Operating system from Windows 7 to Windows 10  (Support for the program for Windows 7 will soon be discontinued.)  
 .Net Framework 4.7.2  
 Visual C++ 2015-2019
 
