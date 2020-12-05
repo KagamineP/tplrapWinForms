@@ -1,4 +1,4 @@
-# TP-Link Router Administration Panel
+# TP-Link Router Administration Panel (Codename: Router Admpanel)
 
 ![Github repo license](https://img.shields.io/github/license/KagamineP/tplrap) ![Github repo size](https://img.shields.io/github/languages/code-size/KagamineP/tplrap)
 
